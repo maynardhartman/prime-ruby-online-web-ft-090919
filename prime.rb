@@ -5,11 +5,10 @@ def prime?(number)
     if number % i == 0
       is_prime = false
     end
-  end
-  if is_prime
-    puts "#{n} is prime!"
-  else
-    puts "#{n} is not prime."
-  end
 end
+  if is_prime
+   return TRUE
+  else
+    return FALSE
+  end
 end 
