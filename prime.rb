@@ -5,7 +5,7 @@ def prime?(number)
     is_prime = FALSE
     return is_prime
   end
-else 
+  else 
   for i in 2..n-1
   if n % i == 0
       is_prime = false
@@ -17,4 +17,4 @@ end
   else
     return false
   end
-
+end
