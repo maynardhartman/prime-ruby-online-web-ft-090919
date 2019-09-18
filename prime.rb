@@ -1,17 +1,20 @@
 # Add  code here!
 def prime?(number)
-  if number <= 0 || number == 0 
-    return false
-  is_prime = true
-  for i in 2..number-1
-    if number % i == 0
+  is_prime = TRUE
+  if (number <= 0)
+    is_prime = FALSE
+    return is_prime
+  end
+else 
+  for i in 2..n-1
+  if n % i == 0
       is_prime = false
-    end
-end
+  end
+  end
   if is_prime
-   return true
+    return true
   else
     return false
   end
 end
-end
+end 
