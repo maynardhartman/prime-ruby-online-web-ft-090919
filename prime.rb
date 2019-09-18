@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number is negative || number is 0 
+  if number is negative || number == 0 
     return false
   is_prime = true
   for i in 2..number-1
