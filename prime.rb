@@ -11,6 +11,7 @@ else
       is_prime = false
   end
   end
+end
   if is_prime
     return true
   else
