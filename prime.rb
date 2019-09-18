@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if number == -1 
-    return FALSE
+    return false
   is_prime = true
   for i in 2..number-1
     if number % i == 0
@@ -9,9 +9,9 @@ def prime?(number)
     end
 end
   if is_prime
-   return TRUE
+   return true
   else
-    return FALSE
+    return false
   end
 end
 end
